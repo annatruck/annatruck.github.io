@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+body>
+<div class="row">
+    <div class="header">
+        <h1>Aprendendo a fazer um creme de milho maravilhoso, rápido e fácil!</h1>
+    </div>
+</div>
+
+<div class="box">
+    <div class="row">
+        <div class="col-3">
+            <h2>Ingredientes:</h2>
+            <ul id="Ingredientes">
+                <li>1 lata de milho</li>
+                <li>1 colher (sopa) de manteiga</li>
+                <li>1 tablete de caldo de legumes</li>
+                <li>2 colheres (sopa) de farinha de trigo</li>
+                <li>1 e 1/2 xícaras (chá) de leite</li>
+                <li>1 cebola média ralada</li>
+                <li>1 lata de creme de leite</li>
+            </ul>
+        </div>
+        <button type="button" onclick="document.getElementById('Ingredientes').style.display='none'">Esconder
+            Ingredientes</button>
+        <button type="button" onclick="document.getElementById('Ingredientes').style.display='block'">Mostrar
+            Ingredientes</button>
+        <div class="col-2">
+            <h2>Materiais:</h2>
+            <ul>
+                <li>Liquidificador</li>
+                <li>Tigela</li>
+                <li>Copo Medidor</li>
+                <li>Panela</li>
+                <li>Colher de silicone</li>
+            </ul>
+        </div>
+        <div class="col-6">
+            <h2>Modo de preparo:</h2>
+            <ol>
+                <li>No liquidificador, bata o milho e o leite e reserve.</li>
+                <li>Em uma panela, aqueça a manteiga, junte a cebola e refogue um pouco.</li>
+                <li>Adicione a farinha de trigo e mexa rapidamente.</li>
+                <li>Deixe dourar e misture o milho batido com o leite ao caldo.</li>
+                <li>Mexa até dissolvê-lo completamente e cozinhe por cerca de 10 minutos, até obter uma consistência
+                    cremosa.</li>
+                <li>Acrescente o creme de leite, mexa e desligue o fogo.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <h2>Dicas adicionais:</h2>
+        <p id="Simples">O modo de preparo do <b>creme de milho simples</b> não tem mistério, mas com algumas dicas, fica
+            mais fácil
+            ainda. Por exemplo, <b>como fazer creme de milho</b> sem talhar? Ou como deixar o creme com aquele amarelo
+            arrebatador? Calma! Nós te ajudamos a alcançar o resultado perfeito. Confira alguns truques:</p>
+        <button type="button"
+            onclick='document.getElementById("Simples").innerHTML = "O preparo do creme de milho simples é fácil, mas com algumas dicas fica ainda melhor. Veja como fazer o creme de milho sem talhar e alcançar aquele amarelo perfeito."'>
+            Simplificar texto acima</button>
+
+        <ol id="Colorido">
+            <li>Se você optar por substituir o milho enlatado pelas espigas, procure cozinhá-las bem e não exagerar no
+                sal, pois, do contrário, os grãos podem ficar ressecados.</li>
+            <li>Para conquistar um creme de milho amarelo e saboroso, não é necessário que você bata todo o milho no
+                liquidificador. Reserve uma pequena parte dele para adicionar depois: você vai ver como vai ficar
+                gostoso!</li>
+            <li>Se você for utilizar maisena no seu creme de milho, não se esqueça de, antes de levá-lo ao fogo,
+                dissolvê-lo em uma pequena quantidade de leite ou água, ambas em temperatura fria. Isso vai impedir que
+                o amido de milho empelote e acabe estragando o creme.</li>
+            <li>No <b>creme de milho</b>, a ordem dos fatores altera o produto, sim, senhor! E esse é o caso do creme de
+                leite. Esse ingrediente só deve ser adicionado ao final do preparo, após todos os demais ingredientes já
+                terem fervido. Aí é só acrescentar o creme de leite, dar aquela mexida rapidinha para misturar tudo e
+                desligar o fogo. Simples, né?</li>
+            <li>Se o creme de milho ficou ralo demais, não se preocupe: é algo que a maisena dissolvida em algum líquido
+                frio (leite ou água) pode resolver. Basta misturar 1 colher (sopa) de maisena com 1/4 xícara de líquido,
+                dissolver e acrescentar à panela, levando ao fogo baixo e mexendo até ganhar consistência.</li>
+        </ol>
+
+        <button type="button" onclick="document.getElementById('Colorido').style.color='red'">Destacar Dicas</button>
+
+        <p>Fonte: <a href="https://www.tudogostoso.com.br/receita/6662-creme-de-milho.html" target="_blank">Tudo
+                Gostoso</a></p>
+    </div>
+</div>
+</body>
+
+</html>
